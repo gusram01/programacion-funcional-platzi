@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Calories Counter</title>
+  </head>
+
+  <body>
+    <main class="main">
+      <article class="card">
+        <h1 class="card__title">Calories Counter</h1>
+
+        <div class="card__body">
+          <div class="body__header">
+            <span class="body__content">Description</span>
+            <span class="body__content">Calories</span>
+            <span class="body__content">Carbs</span>
+            <span class="body__content">Protein</span>
+          </div>
+          <div class="body__description">
+            <span class="body__content">Manzana</span>
+            <span class="body__content">12</span>
+            <span class="body__content">34</span>
+            <span class="body__content">2</span>
+            <button class="body__content erase">--</button>
+          </div>
+          <div class="body__footer">
+            <span class="body__content">Totals</span>
+            <span class="body__content">0</span>
+            <span class="body__content">0</span>
+            <span class="body__content">0</span>
+          </div>
+        </div>
+        <form class="card__footer" id="form">
+          <div class="footer__item">
+            <input type="text" id="description" />
+            <label for="description">Description</label>
+          </div>
+          <div class="footer__item">
+            <input type="number" id="calories" class="" />
+            <label for="calories">Calories</label>
+          </div>
+          <div class="footer__item">
+            <input type="number" id="carbs" />
+            <label for="carbs">Carbs</label>
+          </div>
+          <div class="footer__item">
+            <input type="number" id="protein" />
+            <label for="protein">Protein</label>
+          </div>
+          <div class="footer__item">
+            <button class="button" id="btn">Add</button>
+          </div>
+        </form>
+      </article>
+    </main>
+  </body>
+</html>
